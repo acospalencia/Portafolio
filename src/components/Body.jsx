@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { NavContext } from "../Context/NavContext";
 import { Proyectos } from "./Proyectos";
 import { Sidebar } from "./Sidebar";
@@ -6,10 +6,13 @@ import { CV } from "./CV";
 import { Contacto } from "./Contacto";
 import { Certificaciones } from "./Certificaciones";
 
-
 export const Body = () => {
 
   const { selected } = useContext(NavContext);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [selected]);
 
   const renderContent = () => {
     switch (selected) {

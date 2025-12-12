@@ -54,7 +54,7 @@ export const Sidebar = () => {
                 <div className="space-y-2 text-sm">
                     <p className="flex justify-between md:justify-start md:gap-4 2xl:justify-between">
                         <span>Proyectos terminados:</span>
-                        <span className="font-semibold">3</span>
+                        <span className="font-semibold">5</span>
                     </p>
 
                     <p className="flex justify-between md:justify-start md:gap-4 2xl:justify-between">
