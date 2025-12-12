@@ -37,9 +37,9 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden bg-[#1A1A1A] border-t border-gray-800">
           <div className="flex flex-col px-6 py-4 space-y-4 text-[#E5E5E5]">
-            <button onClick={() => handleClick("inicio")} className="hover:text-[#6EE7B7] transition">Inicio</button>
             <button onClick={() => handleClick("proyectos")} className="hover:text-[#6EE7B7] transition">Proyectos</button>
             <button onClick={() => handleClick("cv")} className="hover:text-[#6EE7B7] transition">Mi CV</button>
+            <button onClick={() => handleClick("certificaciones")} className="hover:text-[#6EE7B7] transition">Certificaciones</button>
             <button onClick={() => handleClick("contacto")} className="hover:text-[#6EE7B7] transition">Contacto</button>
           </div>
         </div>
