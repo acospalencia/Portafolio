@@ -19,6 +19,14 @@ export const Sidebar = () => {
                     </p>
                 </div>
 
+                <div className="flex items-start gap-2 justify-center md:justify-start 2xl:justify-center">
+                    <GraduationCap size={18} className="text-[#6EE7B7] mt-1" />
+                    <p className="text-base leading-snug">
+                        <strong>Título:</strong> Técnico en ingeniería de desarrollo de software
+                    </p>
+                </div>
+
+
                 <div className="flex items-center gap-2 justify-center md:justify-start 2xl:justify-center">
                     <Calendar size={18} className="text-[#6EE7B7]" />
                     <p className="text-base">
@@ -36,7 +44,7 @@ export const Sidebar = () => {
                 <div className="flex items-center gap-2 justify-center md:justify-start 2xl:justify-center">
                     <Heart size={18} className="text-[#6EE7B7]" />
                     <p className="text-base">
-                        <strong>Intereses:</strong> Desarrollo web, IA, Videojuegos
+                        <strong>Intereses:</strong> Desarrollo web, IA.
                     </p>
                 </div>
 
@@ -81,7 +89,7 @@ export const Sidebar = () => {
 
                         <div className="flex items-center gap-2">
                             <Code className="w-4 h-4 text-[#6EE7B7]" />
-                            React 
+                            React
                         </div>
 
                         <div className="flex items-center gap-2">
