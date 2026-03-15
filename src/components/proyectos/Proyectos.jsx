@@ -1,8 +1,10 @@
+import { ProyectosLaborales } from "./ProyectosLaborales";
+
 export const Proyectos = () => {
   return (
     <section className="">
 
-
+    <ProyectosLaborales />
 
       {/* CONTENEDOR CON BORDE (nuevo) */}
       <div className="bg-[#111] border border-gray-800 rounded-xl p-6 shadow-lg shadow-black/40">

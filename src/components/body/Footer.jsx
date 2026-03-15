@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { NavContext } from "../Context/NavContext";
+import { NavContext } from "../../Context/NavContext";
 
 export function Footer() {
 

@@ -1,6 +1,6 @@
 import { useState, useContext } from 'react';
 import { Menu, X } from 'lucide-react';
-import { NavContext } from '../Context/NavContext';
+import { NavContext } from '../../Context/NavContext';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -12,7 +12,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="w-full bg-[#0F0F0F] border-b border-gray-800 text-[#E5E5E5]">
+    <nav className="w-full bg-[#0F0F0F] border-b border-gray-800 text-[#E5E5E5] sticky top-0 z-50">
       <div className="w-full px-6 py-4 flex items-center justify-between">
         <h1 className="text-xl font-semibold text-[#6EE7B7]">Portafolio</h1>
 

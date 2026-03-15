@@ -30,7 +30,7 @@ export const Sidebar = () => {
                 <div className="flex items-center gap-2 justify-center md:justify-start 2xl:justify-center">
                     <Calendar size={18} className="text-[#6EE7B7]" />
                     <p className="text-base">
-                        <strong>Edad:</strong> 20 años
+                        <strong>Edad:</strong> 21 años
                     </p>
                 </div>
 
@@ -62,7 +62,7 @@ export const Sidebar = () => {
                 <div className="space-y-2 text-sm">
                     <p className="flex justify-between md:justify-start md:gap-4 2xl:justify-between">
                         <span>Proyectos terminados:</span>
-                        <span className="font-semibold">5</span>
+                        <span className="font-semibold">6</span>
                     </p>
 
                     <p className="flex justify-between md:justify-start md:gap-4 2xl:justify-between">

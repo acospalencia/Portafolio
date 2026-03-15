@@ -1,7 +1,7 @@
 import './App.css'
-import { Footer } from './components/Footer'
-import Navbar from './components/Navbar'
-import { Body } from './components/Body'
+import { Footer } from './components/body/Footer'
+import Navbar from './components/body/Navbar'
+import { Body } from './components/body/Body'
 import { NavProvider } from './Context/NavContext'
 
 function App() {
